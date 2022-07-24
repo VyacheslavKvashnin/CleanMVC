@@ -56,15 +56,31 @@
 		BDD173B9288D91320065BAA7 /* CleanMVC */ = {
 			isa = PBXGroup;
 			children = (
+				BDD173CF288D91560065BAA7 /* ViewControllers */,
+				BDD173CE288D91440065BAA7 /* Model */,
 				BDD173BA288D91320065BAA7 /* AppDelegate.swift */,
 				BDD173BC288D91320065BAA7 /* SceneDelegate.swift */,
-				BDD173BE288D91320065BAA7 /* ViewController.swift */,
 				BDD173C0288D91320065BAA7 /* Main.storyboard */,
 				BDD173C3288D91340065BAA7 /* Assets.xcassets */,
 				BDD173C5288D91340065BAA7 /* LaunchScreen.storyboard */,
 				BDD173C8288D91340065BAA7 /* Info.plist */,
 			);
 			path = CleanMVC;
+			sourceTree = "<group>";
+		};
+		BDD173CE288D91440065BAA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDD173CF288D91560065BAA7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDD173BE288D91320065BAA7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +322,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
